@@ -26,13 +26,18 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+        .prompt(questions)
+        .then((answers) => {
+            console.log(JSON.stringify(answers));
+            // console.log(generateMarkdown(answers));
+            writeToFile("./dist/README.md", answers);
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+}
 
 // Function call to initialize app
 init();
-
-inquirer.prompt(questions).then((answers) => {
-    console.log(JSON.stringify(answers));
-    // console.log(generateMarkdown(answers));
-    writeToFile("READMEgen.md", answers);
-})
