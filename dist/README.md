@@ -1,4 +1,5 @@
-# Test
+# Badge Test
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description:
 Short description.
@@ -16,6 +17,7 @@ Short description.
 ## Usage:
 
 ## License:
+This application is covered under the [ISC](https://opensource.org/licenses/ISC) license.
 
 ## Contributing:
 

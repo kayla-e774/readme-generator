@@ -14,6 +14,12 @@ const questions = [
         type: 'editor',
         name: 'description',
         message: "Enter a project description:"
+    },
+    {
+        type: 'list',
+        name: 'license',
+        message: "Choose your license type:",
+        choices: ["Apache 2.0", "ISC", "MIT", "none"]
     }
 ];
 
