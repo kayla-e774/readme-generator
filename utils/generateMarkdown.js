@@ -69,7 +69,10 @@ ${renderLicenseSection(data.license)}
 
 ## Tests:
 
-## Questions:`;
+## Questions:
+Contact me via github: [${data.githubUser}](https://github.com/${data.githubUser})
+Or email me at: <${data.email}>
+`;
 }
 
 export default generateMarkdown;
