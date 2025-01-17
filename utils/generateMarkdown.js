@@ -59,15 +59,19 @@ ${data.description}
 - [Questions](#questions)
 
 ## Installation:
+${data.installation}
 
 ## Usage:
+${data.usage}
 
 ## License:
 ${renderLicenseSection(data.license)}
 
 ## Contributing:
+${data.contributing}
 
 ## Tests:
+${data.tests}
 
 ## Questions:
 Contact me via github: [${data.githubUser}](https://github.com/${data.githubUser})  

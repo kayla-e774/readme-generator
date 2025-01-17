@@ -16,10 +16,30 @@ const questions = [
         message: "Enter a project description:"
     },
     {
+        type: 'editor',
+        name: 'installation',
+        message: "Enter installation instructions:"
+    },
+    {
+        type: 'editor',
+        name: 'usage',
+        message: "Enter usage information:"
+    },
+    {
         type: 'list',
         name: 'license',
         message: "Choose your license type:",
         choices: ["Apache 2.0", "ISC", "MIT", "none"]
+    },
+    {
+        type: 'editor',
+        name: 'contributing',
+        message: "Enter contribution guidelines:"
+    },
+    {
+        type: 'editor',
+        name: 'tests',
+        message: "Enter test instructions:"
     },
     {
         type: 'input',
@@ -46,8 +66,6 @@ function init() {
     inquirer
         .prompt(questions)
         .then((answers) => {
-            console.log(JSON.stringify(answers));
-            // console.log(generateMarkdown(answers));
             writeToFile("./dist/README.md", answers);
         })
         .catch((error) => {
