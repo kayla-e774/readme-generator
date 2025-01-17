@@ -1,8 +1,8 @@
-# Questions Test
+# Example README
 [![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description:
-Testing GitHub and email generation.
+Example output of README generator.
 
 ## Table of Contents:
 - [Installation](#installation)
@@ -24,5 +24,5 @@ This application is covered under the [ISC](https://opensource.org/licenses/ISC)
 ## Tests:
 
 ## Questions:
-Contact me via github: [kayla-e774](https://github.com/kayla-e774)
+Contact me via github: [kayla-e774](https://github.com/kayla-e774)  
 Or email me at: <kengelstad16@gmail.com>
