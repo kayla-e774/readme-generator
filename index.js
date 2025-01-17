@@ -20,6 +20,16 @@ const questions = [
         name: 'license',
         message: "Choose your license type:",
         choices: ["Apache 2.0", "ISC", "MIT", "none"]
+    },
+    {
+        type: 'input',
+        name: 'githubUser',
+        message: "Enter your github username:"
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: "Enter your email address:"
     }
 ];
 
