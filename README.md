@@ -26,7 +26,7 @@ $ npm i
 ## Usage:
 - Watch this demo:
 
-https://github.com/user-attachments/assets/37619cdf-0a4b-4249-bdf6-5d49b98c813f
+https://github.com/user-attachments/assets/0f1a562b-53f4-4084-80fa-0eb96ac61e41
 
 
 - From this repo's root directory, run the following command:
