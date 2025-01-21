@@ -25,6 +25,10 @@ $ npm i
 
 ## Usage:
 - Watch this demo:
+
+https://github.com/user-attachments/assets/37619cdf-0a4b-4249-bdf6-5d49b98c813f
+
+
 - From this repo's root directory, run the following command:
 ```
 $ node index.js
