@@ -28,6 +28,7 @@ $ npm i
 
 https://github.com/user-attachments/assets/0f1a562b-53f4-4084-80fa-0eb96ac61e41
 
+[Demo video - google drive](https://drive.google.com/file/d/129Aqe16QBTDvRrjbjZl3zETaZJs_hcPj/view?usp=sharing)
 
 - From this repo's root directory, run the following command:
 ```
